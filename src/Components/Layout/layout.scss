@@ -1,0 +1,29 @@
+.navbar {
+    background-color: var(--secondary-background-color);
+    border-bottom: 1px solid var(--secondary-background-color);
+    color: var(--main-text-color);
+    padding: 20px 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    position: sticky;
+    top: 0;
+    &__menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    &__item {
+      display: flex;
+      gap: 2px;
+      cursor: pointer;
+      &:hover {
+        color: var(--active-text-color);
+      }
+    }
+    &__logo {
+        text-decoration: none;
+    }
+}

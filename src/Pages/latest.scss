@@ -1,0 +1,22 @@
+.posts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.main-title {
+  font-size: 3.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #a200ff, #0270ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

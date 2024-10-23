@@ -1,0 +1,11 @@
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+
+.container {
+  margin: 5px;
+  padding: 20px;
+  overflow: scroll;
+  height: calc(100vh - 65px);
+}
