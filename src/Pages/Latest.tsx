@@ -24,8 +24,8 @@ const Latest = () => {
     <div className="container">
       <h1 className="main-title">
         <span>Explore</span>
-        <span className="gradient-text">Learn</span>
-        <span>Build 🚀</span>
+        <span className="gradient-text">React</span>
+        <span>Learn 🚀</span>
       </h1>
       {loading &&
         <Loading />
